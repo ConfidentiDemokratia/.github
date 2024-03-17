@@ -1,4 +1,4 @@
-# Demokratia
+# DEMOKRATIA
 
 ![App](https://github.com/ConfidentiDemokratia/.github/blob/main/sim.gif)
 
