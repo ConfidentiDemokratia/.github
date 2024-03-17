@@ -1,5 +1,5 @@
 # Demokratia
-==============
+
 ![App](https://github.com/ConfidentiDemokratia/.github/blob/main/sim.gif)
 
 ## Solution
