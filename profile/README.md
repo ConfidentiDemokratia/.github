@@ -1,5 +1,13 @@
 # DEMOKRATIA
 
+The system allows users to train an AI agent on their device with their personal preferences. These preferences are then compressed using a Bert Large Language Model (LLM) into an embedding, which is sent to a semi-trusted server tasked with executing automated votes. For each new poll, the server calculates the user's vote using a straightforward ML model and produces a Zero-Knowledge Machine Learning (ZKML) attestation to verify the vote's correctness. This attestation encrypts the vote for publication on the blockchain. Users have the option to decrypt and review their vote; if dissatisfied with the automated choice, they can manually revote.
+
+This project addresses the fundamental issue of low voter participation, which often stems from people's reluctance to make decisions. By creating a system that autonomously makes decisions on behalf of the user—in a manner consistent with their preferences—we aimed to increase participation by simplifying the voting process.
+
+### Presentation of our project
+- [presentation](https://github.com/ConfidentiDemokratia/.github/blob/main/dao_2_compressed.pdf)
+
+
 ![App](https://github.com/ConfidentiDemokratia/.github/blob/main/sim.gif)
 
 ## Solution
@@ -30,9 +38,6 @@
 ## Delegator-Circom
 
 - [delegator-circom](https://github.com/ConfidentiDemokratia/delegator-circom)
-
-### Presentation of our project
-- [presentation](https://github.com/ConfidentiDemokratia/.github/blob/main/dao_2_compressed.pdf)
 
 #### Contacts:
 - artem.grigor.23@ucl.ac.uk
